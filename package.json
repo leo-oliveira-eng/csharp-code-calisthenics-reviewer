@@ -7,7 +7,8 @@
     "csharp-code-calisthenics-reviewer": "./bin/installer.js"
   },
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "pack:ps": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:npm_config_cache=(Get-Location).Path + '\\.tmp\\npm-cache'; npm.cmd pack\""
   },
   "files": [
     "src/raw-skill/**",
