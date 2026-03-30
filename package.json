@@ -1,0 +1,24 @@
+{
+  "name": "csharp-code-calisthenics-reviewer",
+  "version": "0.1.0",
+  "description": "Deterministic C# code calisthenics review skill packaged as a raw skill bundle and Codex plugin.",
+  "license": "MIT",
+  "bin": {
+    "csharp-code-calisthenics-reviewer": "./bin/installer.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "files": [
+    "src/raw-skill/**",
+    "src/codex-plugin/**",
+    "scripts/build.js",
+    "bin/installer.js",
+    "README.md",
+    "LICENSE",
+    ".agents/plugins/marketplace.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

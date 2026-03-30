@@ -1,0 +1,6 @@
+{
+  "name": "csharp-code-calisthenics-reviewer",
+  "version": "0.1.0",
+  "description": "Review a C# file or small class against a fixed set of code-calisthenics rules and suggest a refactor plan.",
+  "skills": "./skills/"
+}

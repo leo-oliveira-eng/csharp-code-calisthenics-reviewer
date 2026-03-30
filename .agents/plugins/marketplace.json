@@ -1,0 +1,20 @@
+{
+  "name": "local-marketplace",
+  "interface": {
+    "displayName": "Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "csharp-code-calisthenics-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/csharp-code-calisthenics-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
